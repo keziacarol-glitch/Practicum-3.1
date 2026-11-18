@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QuizPulse - Sign Up</title>
+</head>
+<body bgcolor="#f0f8ff">
+<center>
+<h1>
+<font color="#ff69b4">QuizPulse</font>
+</h1>
+<hr>
+<h2>
+<font color="#6a5acd">Create Your Account</font>
+</h2>
+<form action="signup.php" method="post">
+<table cellpadding="8">
+<tr>
+<td><b>Full Name:</b></td>
+<td>
+<input type="text" name="fullname" placeholder="Enter your full name" required>
+</td>
+</tr>
+<tr>
+<td><b>Username:</b></td>
+<td>
+<input type="text" name="username" placeholder="Choose a username" required>
+</td>
+</tr>
+<tr>
+<td><b>Email:</b></td>
+<td>
+<input type="email" name="email" placeholder="Enter your email" required>
+</td>
+</tr>
+<tr>
+<td><b>Password:</b></td>
+<td>
+<input type="password" name="password" placeholder="Enter password" required>
+</td>
+</tr>
+<tr>
+<td><b>Confirm Password:</b></td>
+<td>
+<input type="password" name="confirm" placeholder="Confirm password" required>
+</td>
+</tr>
+<tr>
+<td><b>Class:</b></td>
+<td>
+<select name="class" required>
+<option value="">Select Class</option>
+<option value="school">School</option>
+<option value="college">College</option>
+<option value="university">University</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><b>Favorite Subject:</b></td>
+<td>
+<input type="radio" name="subject" value="science" required> Science
+<input type="radio" name="subject" value="math"> Mathematics
+<input type="radio" name="subject" value="computer"> Computer
+</td>
+</tr>
+<tr>
+<td><b>Student ID:</b></td>
+<td>
+<input type="text" name="studentid" value="QP2026" readonly>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Create Account">
+<input type="reset" value="Clear">
+</td>
+</tr>
+</table>
+</form>
+<p>
+Already have an account?
+<a href="login.html">Login</a>
+</p>
+<hr>
+</center>
+</body>
+</html>
